@@ -1,5 +1,5 @@
-|![bspwm-environment](https://github.com/AlvinPix/bspwm/blob/main/resources/bspwm.png?raw=true)|
-|---|
+| ![bspwm-environment](https://github.com/AlvinPix/bspwm/blob/main/resources/bspwm.png?raw=true) |
+| ---------------------------------------------------------------------------------------------- |
 
 ## BSPWM | Professional bspwm desktop environment for [kali linux](https://www.kali.org/)
 
@@ -13,7 +13,7 @@ This configuration uses the following software.
 - **Hotkey:** [sxhkd](https://github.com/baskerville/sxhkd)
 - **Locker:** [betterlockscreen](https://github.com/betterlockscreen/betterlockscreen)
 - **Shell:** [zsh](https://www.zsh.org/)
-- **Bars:** [polybar](https://github.com/polybar/polybar) | [cuts](https://github.com/adi1090x/polybar-themes#cuts) 
+- **Bars:** [polybar](https://github.com/polybar/polybar) | [cuts](https://github.com/adi1090x/polybar-themes#cuts)
 - **Compositor:** [picom](https://github.com/yshui/picom)
 - **File Manager:** [thunar](https://docs.xfce.org/xfce/thunar/start) | [nautilus](https://wiki.gnome.org/action/show/Apps/Files?action=show&redirect=Apps%2FNautilus)
 - **Font terminal:** [comicmono](https://dtinth.github.io/comic-mono-font/)
@@ -39,133 +39,41 @@ This environment comes with 8 different themes where each theme has its own name
 7. [**Xavier**](https://github.com/AlvinPix/bspwm/tree/main#xavier)
 8. [**Nami**](https://github.com/AlvinPix/bspwm/tree/main#nami)
 
-## Zenitsu
-
-|<img src="resources/Zenitsu.png" alt="Zenitsu" align="center">|
-|---|
-## Pentest
-
-|<img src="resources/pentest ze.png" alt="Zenitsu" align="center" width="390">|<img src="resources/theamin ze.png" alt="Zenitsu" align="center" width="390">|
-|---|---|
-<details>
-<summary><b>Extra wallpapers Zenitsu</b></summary>
-
-|<img src=".themes/Zenitsu/wallpapers/extra_wal-3.png" alt="Zenitsu" align="center" width="150px">|<img src=".themes/Zenitsu/wallpapers/extra_wal-2.png" alt="Zenitsu" align="center" width="150px">|<img src=".themes/Zenitsu/wallpapers/extra_wal-1.png" alt="Zenitsu" align="center" width="150px">|
-|:-:|:-:|:-:|
-
-</details>
-
-## Raven
-
-|<img src="resources/Raven.png" alt="Raven" align="center">|
-|---|
-## Pentest
-
-|<img src="resources/raven up.png" alt="Raven" align="center" width="390">|<img src="resources/Raven pentest.png" alt="Raven" align="center" width="390">|
-|---|---|
-<details>
-<summary><b>Extra wallpapers Raven</b></summary>
-
-|<img src=".themes/Raven/wallpapers/extra_wal-3.png" alt="Raven" align="center" width="150px">|<img src=".themes/Raven/wallpapers/extra_wal-2.png" alt="Raven" align="center" width="150px">|<img src=".themes/Raven/wallpapers/extra_wal-1.png" alt="Raven" align="center" width="150px">|
-|:-:|:-:|:-:|
-
-</details>
-
-## Simon
-
-|<img src="resources/Simon.png" alt="Simon" align="center">|
-|---|
-## Pentest
-
-|<img src="resources/Simon wi.png" alt="Simon" align="center" width="390">|<img src="resources/Simon desk.png" alt="Simon" align="center" width="390">|
-|---|---|
-<details>
-<summary><b>Extra wallpapers Simon</b></summary>
-
-|<img src=".themes/Simon/wallpapers/extra_wal-3.jpg" alt="Simon" align="center" width="150px">|<img src=".themes/Simon/wallpapers/extra_wal-2.jpg" alt="Simon" align="center" width="150px">|<img src=".themes/Simon/wallpapers/extra_wal-1.png" alt="Simon" align="center" width="150px">|
-|:-:|:-:|:-:|
-
-</details>
-
-## Camila
-
-|<img src="resources/Camila.png" alt="Camila" align="center">|
-|---|
-## Pentest
-
-|<img src="resources/Camila fa.png" alt="Camila" align="center" width="390">|<img src="resources/Camila ght.png" alt="Camila" align="center" width="390">|
-|---|---|
-<details>
-<summary><b>Extra wallpapers Camila</b></summary>
-
-|<img src=".themes/Camila/wallpapers/extra_wal-3.jpg" alt="Camila" align="center" width="150px">|<img src=".themes/Camila/wallpapers/extra_wal-2.png" alt="Camila" align="center" width="150px">|<img src=".themes/Camila/wallpapers/extra_wal-1.png" alt="Camila" align="center" width="150px">|
-|:-:|:-:|:-:|
-
-</details>
-
-## Ryan
-
-|<img src="resources/Ryan.png" alt="Ryan" align="center">|
-|---|
-## Pentest
-
-|<img src="resources/Ryan fi.png" alt="Ryan" align="center" width="390">|<img src="resources/Ryan po.png" alt="Ryan" align="center" width="390">|
-|---|---|
-<details>
-<summary><b>Extra wallpapers Ryan</b></summary>
-
-|<img src=".themes/Ryan/wallpapers/extra_wal-1.png" alt="Ryan" align="center" width="150px">|<img src=".themes/Ryan/wallpapers/extra_wal-2.jpg" alt="Ryan" align="center" width="150px">|<img src=".themes/Ryan/wallpapers/extra_wal-3.png" alt="Ryan" align="center" width="150px">|<img src=".themes/Ryan/wallpapers/extra_wal-4.png" alt="Ryan" align="center" width="150px">|<img src=".themes/Ryan/wallpapers/extra_wal-5.png" alt="Ryan" align="center" width="150px">|
-|:-:|:-:|:-:|:-:|:-:|
-
-</details>
-
-## Esmeralda
-
-|<img src="resources/Esmeralada.png" alt="Esmeralda" align="center">|
-|---|
-## Pentest
-
-|<img src="resources/Esmeralda n.png" alt="Esmeralda" align="center" width="390">|<img src="resources/Esmeralda z.png" alt="Esmeralda" align="center" width="390">|
-|---|---|
-<details>
-<summary><b>Extra wallpapers Esmeralda</b></summary>
-
-|<img src=".themes/Esmeralda/wallpapers/extra_wal-3.png" alt="Esmeralda" align="center" width="150px">|<img src=".themes/Esmeralda/wallpapers/extra_wal-2.png" alt="Esmeralda" align="center" width="150px">|<img src=".themes/Esmeralda/wallpapers/extra_wal-1.png" alt="Esmeralda" align="center" width="150px">|
-|:-:|:-:|:-:|
-
-</details>
-
 ## Xavier
 
 **Xavier is the default theme during installation**
 
-|<img src="resources/Xavier.png" alt="Xavier" align="center">|
-|---|
+| <img src="resources/Xavier.png" alt="Xavier" align="center"> |
+| ------------------------------------------------------------ |
+
 ## Pentest
 
-|<img src="resources/Xavier me.png" alt="Xavier" align="center" width="390">|<img src="resources/Xavier pe.png" alt="Xavier" align="center" width="390">|
-|---|---|
+| <img src="resources/Xavier me.png" alt="Xavier" align="center" width="390"> | <img src="resources/Xavier pe.png" alt="Xavier" align="center" width="390"> |
+| --------------------------------------------------------------------------- | --------------------------------------------------------------------------- |
+
 <details>
 <summary><b>Extra wallpapers Xavier</b></summary>
 
-|<img src=".themes/Xavier/wallpapers/extra_wal-1.png" alt="Xavier" align="center" width="150px">|<img src=".themes/Xavier/wallpapers/extra_wal-2.png" alt="Xavier" align="center" width="150px">|<img src=".themes/Xavier/wallpapers/extra_wal-3.png" alt="Xavier" align="center" width="150px">|<img src=".themes/Xavier/wallpapers/extra_wal-4.png" alt="Xavier" align="center" width="150px">|<img src=".themes/Xavier/wallpapers/extra_wal-5.png" alt="Xavier" align="center" width="150px">|<img src=".themes/Xavier/wallpapers/extra_wal-6.png" alt="Xavier" align="center" width="150px">|<img src=".themes/Xavier/wallpapers/extra_wal-7.png" alt="Xavier" align="center" width="150px">|<img src=".themes/Xavier/wallpapers/extra_wal-8.png" alt="Xavier" align="center" width="150px">|<img src=".themes/Xavier/wallpapers/extra_wal-9.png" alt="Xavier" align="center" width="150px">|
-|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-|
+| <img src=".themes/Xavier/wallpapers/extra_wal-1.png" alt="Xavier" align="center" width="150px"> | <img src=".themes/Xavier/wallpapers/extra_wal-2.png" alt="Xavier" align="center" width="150px"> | <img src=".themes/Xavier/wallpapers/extra_wal-3.png" alt="Xavier" align="center" width="150px"> | <img src=".themes/Xavier/wallpapers/extra_wal-4.png" alt="Xavier" align="center" width="150px"> | <img src=".themes/Xavier/wallpapers/extra_wal-5.png" alt="Xavier" align="center" width="150px"> | <img src=".themes/Xavier/wallpapers/extra_wal-6.png" alt="Xavier" align="center" width="150px"> | <img src=".themes/Xavier/wallpapers/extra_wal-7.png" alt="Xavier" align="center" width="150px"> | <img src=".themes/Xavier/wallpapers/extra_wal-8.png" alt="Xavier" align="center" width="150px"> | <img src=".themes/Xavier/wallpapers/extra_wal-9.png" alt="Xavier" align="center" width="150px"> |
+| :---------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------- |
 
 </details>
 
 ## Nami
 
-|<img src="resources/Nami.png" alt="Nami" align="center">|
-|---|
+| <img src="resources/Nami.png" alt="Nami" align="center"> |
+| -------------------------------------------------------- |
+
 ## Pentest
 
-|<img src="resources/Nami bs.png" alt="Nami" align="center" width="390">|<img src="resources/Nami m.png" alt="Nami" align="center" width="390">|
-|---|---|
+| <img src="resources/Nami bs.png" alt="Nami" align="center" width="390"> | <img src="resources/Nami m.png" alt="Nami" align="center" width="390"> |
+| ----------------------------------------------------------------------- | ---------------------------------------------------------------------- |
+
 <details>
 <summary><b>Extra wallpapers Nami</b></summary>
 
-|<img src=".themes/Nami/wallpapers/extra_wal-1.png" alt="Nami" align="center" width="150px">|<img src=".themes/Nami/wallpapers/extra_wal-2.png" alt="Nami" align="center" width="150px">|
-|:-:|:-:|
+| <img src=".themes/Nami/wallpapers/extra_wal-1.png" alt="Nami" align="center" width="150px"> | <img src=".themes/Nami/wallpapers/extra_wal-2.png" alt="Nami" align="center" width="150px"> |
+| :-----------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------: |
 
 </details>
 
@@ -186,14 +94,17 @@ All keyboard shortcuts in [**sxhkdrc**](https://github.com/AlvinPix/bspwm/blob/m
 ## Environment installation
 
 To install this desktop environment is very easy, first clone the repository, there will be the cloned repository folder.
+
 ```bash
-git clone https://github.com/AlvinPix/bspwm.git ; cd bspwm
+git clone https://github.com/jnjambrin0/Debian-Environment.git ; cd bspwm
 ```
 
 Finally, chmod permissions to the files called **kali.sh** and **root.sh** and then run it.
+
 ```bash
 chmod u+x kali.sh root.sh ; ./kali.sh ; sudo ./root.sh
 ```
+
 Wait for the installation scripts to finish, once finished close section and select the new bspwm desktop.
 
 ## Credits
