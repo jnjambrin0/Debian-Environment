@@ -318,6 +318,8 @@ echo ""
 		echo -e "${White} [${Blue}i${White}] Step 9 installing missing dependencies"
 		sleep 2
 		echo ""
+		sudo apt update
+		echo ""
 		sudo apt install rofi fonts-firacode fonts-cantarell lxappearance nitrogen lsd betterlockscreen flameshot git net-tools xclip xdotool -y > /dev/null
 		echo ""
 		sudo apt install scrub bat tty-clock feh pulseaudio-utils git lolcat -y > /dev/null
