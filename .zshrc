@@ -341,7 +341,7 @@ fi
 # My aliases
 
 #alias net="sudo bash /home/alvinpix/Escritorio/PX-games/Github/Network/Network.sh"
-alias lock="betterlockscreen -l dim"
+alias lock="i3lock"
 alias img="kitty +kitten icat"
 alias cat="batcat"
 #alias ls="colorls --sd -A"

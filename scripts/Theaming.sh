@@ -106,7 +106,7 @@ cd ${THEMEDIR}/Default/polybar
 cp user_modules.ini colors.ini config.ini ${CONDIR}/.config/polybar/cuts
 cp colors.rasi ${CONDIR}/.config/polybar/cuts/scripts/rofi
 echo ""
-betterlockscreen -u ${THEMEDIR}/Default/wallpapers/default.jpg
+i3lock -u ${THEMEDIR}/Default/wallpapers/default.jpg
 echo ""
 bspc wm -r
 #polybar-msg cmd restart
@@ -125,7 +125,7 @@ cd ${THEMEDIR}/Secundary/polybar
 cp user_modules.ini colors.ini config.ini ${CONDIR}/.config/polybar/cuts
 cp colors.rasi ${CONDIR}/.config/polybar/cuts/scripts/rofi
 echo ""
-betterlockscreen -u ${THEMEDIR}/Secundary/wallpapers/secundary.jpg
+i3lock -u ${THEMEDIR}/Secundary/wallpapers/secundary.jpg
 echo ""
 bspc wm -r
 echo -e " ${White}[${Cyan}i${White}] ${Red}[Secundary]${White} theme applied correctly"
@@ -166,7 +166,7 @@ cp config.ini ${CONDIR}/.config/polybar/cuts
 cd ${THEMEDIR}/Default/scripts
 cp ethernet_status.sh machine_target.sh vpn_status.sh ${CONDIR}/.config/polybar/cuts/scripts
 echo ""
-betterlockscreen -u ${THEMEDIR}/Default/wallpapers/default.jpg
+i3lock -u ${THEMEDIR}/Default/wallpapers/default.jpg
 echo ""
 bspc wm -r
 #polybar-msg cmd restart
@@ -189,7 +189,7 @@ cp config.ini ${CONDIR}/.config/polybar/cuts
 cd ${THEMEDIR}/Secundary/scripts
 cp ethernet_status.sh machine_target.sh vpn_status.sh ${CONDIR}/.config/polybar/cuts/scripts
 echo ""
-betterlockscreen -u ${THEMEDIR}/Secundary/wallpapers/secundary.jpg
+i3lock -u ${THEMEDIR}/Secundary/wallpapers/secundary.jpg
 echo ""
 bspc wm -r
 #polybar-msg cmd restart

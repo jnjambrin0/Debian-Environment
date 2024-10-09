@@ -141,4 +141,4 @@ super + alt + 2
 
 # betterlockscreen
 super + x
-	betterlockscreen -l dim
+	i3lock

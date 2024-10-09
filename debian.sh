@@ -320,7 +320,7 @@ echo ""
 		echo ""
 		sudo apt update > /dev/null
 		echo ""
-		sudo apt install rofi fonts-firacode fonts-cantarell lxappearance nitrogen lsd betterlockscreen flameshot git net-tools xclip xdotool -y
+		sudo apt install rofi fonts-firacode fonts-cantarell lxappearance nitrogen lsd i3lock flameshot git net-tools xclip xdotool -y
 		echo ""
 		sudo apt install scrub bat tty-clock feh pulseaudio-utils git lolcat -y > /dev/null
 		echo ""
