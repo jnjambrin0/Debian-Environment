@@ -68,7 +68,7 @@ if [ $quest = Y ]; then
 echo ""
 	echo -e "${White} [${Blue}i${White}] Step 0 checking if zsh is installed"
 	sleep 2
-	if which bspwm >/dev/null; then
+	if which zsh >/dev/null; then
 		echo ""
 		echo -e "${White} [${Blue}+${White}] ZSH is installed, installing configuration"
 		sleep 2
