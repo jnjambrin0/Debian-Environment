@@ -56,7 +56,7 @@ if [ $quest = Y ]; then
 echo ""
 	echo -e "${White} [${Blue}i${White}] Step 0 checking if zsh is installed"
 	sleep 2
-	if which zsh >/dev/null; then
+	if which zsh > /dev/null; then
 		echo ""
 		echo -e "${White} [${Blue}+${White}] ZSH is installed, installing configuration"
 		sleep 2
@@ -67,7 +67,7 @@ echo ""
 		echo ""
 		sudo apt update
 		echo ""
-		sudo apt install zsh -y
+		sudo apt install zsh -y > /dev/null
 		echo ""
 		echo -e "${White} [${Blue}+${White}] ZSH is installed, installing configuration"
 		sleep 2
@@ -76,7 +76,7 @@ echo ""
 	echo ""
 	echo -e "${White} [${Blue}i${White}] Step 1 checking if bspwm and sxhkd are installed"
 	sleep 2
-	if which bspwm >/dev/null; then
+	if which bspwm > /dev/null; then
 		echo ""
 		echo -e "${White} [${Blue}+${White}] BSPWM is installed, installing configuration"
 		sleep 2
@@ -91,7 +91,7 @@ echo ""
 		echo ""
 		sudo apt update
 		echo ""
-		sudo apt install bspwm -y
+		sudo apt install bspwm -y > /dev/null
 		echo ""
 		echo -e "${White} [${Blue}+${White}] BSPWM is installed, installing configuration"
 		sleep 2
@@ -100,7 +100,7 @@ echo ""
         cp -r bspwm ${LOCALPATH}/.config/bspwm
 		chmod +x ${LOCALPATH}/.config/bspwm/bspwmrc
 	fi
-	if which sxhkd >/dev/null; then
+	if which sxhkd > /dev/null; then
 		echo ""
 		echo -e "${White} [${Blue}+${White}] SXHKD is installed, installing configuration"
 		sleep 2
@@ -115,7 +115,7 @@ echo ""
 		echo ""
 		sudo apt update
 		echo ""
-		sudo apt install sxhkd -y
+		sudo apt install sxhkd -y > /dev/null
 		echo ""
 		echo -e "${White} [${Blue}+${White}] SXHKD is installed, installing configuration"
 		sleep 2
@@ -141,7 +141,7 @@ echo ""
 		echo -e "${White} [${Blue}i${White}] Step 3 check if the kitty terminal is installed"
 		sleep 2
 
-	if which kitty >/dev/null; then
+	if which kitty > /dev/null; then
 		echo ""
 		echo -e "${White} [${Blue}+${White}] KITTY is installed, installing configuration"
 		sleep 2
@@ -155,7 +155,7 @@ echo ""
 		echo ""
 		sudo apt update
 		echo ""
-		sudo apt install kitty -y
+		sudo apt install kitty -y > /dev/null
 		echo ""
 		echo -e "${White} [${Blue}+${White}] KITTY is installed, installing configuration"
 		sleep 2
@@ -166,7 +166,7 @@ echo ""
 		echo -e "${White} [${Blue}i${White}] Step 4 check if the picom compositor is installed"
 		sleep 2
 	fi
-	if which picom >/dev/null; then
+	if which picom > /dev/null; then
 		echo ""
 		echo -e "${White} [${Blue}+${White}] PICOM is installed, installing configuration"
 		sleep 2
@@ -180,7 +180,7 @@ echo ""
 		echo ""
 		sudo apt update
 		echo ""
-		sudo apt install picom -y
+		sudo apt install picom -y > /dev/null
 		echo ""
 		echo -e "${White} [${Blue}+${White}] PICOM is installed, installing configuration"
 		sleep 2
@@ -191,7 +191,7 @@ echo ""
 		echo -e "${White} [${Blue}i${White}] Step 5 check if the neofetch is installed"
 		sleep 2
 	fi
-	if which neofetch >/dev/null; then
+	if which neofetch > /dev/null; then
 		echo ""
 		echo -e "${White} [${Blue}+${White}] NEOFETCH is installed, installing configuration"
 		sleep 2
@@ -205,7 +205,7 @@ echo ""
 		echo ""
 		sudo apt update
 		echo ""
-		sudo apt install neofetch -y
+		sudo apt install neofetch -y > /dev/null
 		echo ""
 		echo -e "${White} [${Blue}+${White}] NEOFETCH is installed, installing configuration"
 		sleep 2
@@ -216,7 +216,7 @@ echo ""
                 echo -e "${White} [${Blue}i${White}] Step 6 check if the ranger is installed"
                 sleep 2
 	fi
-	if which ranger >/dev/null; then
+	if which ranger > /dev/null; then
 		echo ""
 		echo -e "${White} [${Blue}+${White}] RANGER is installed, installing configuration"
 		sleep 2
@@ -230,7 +230,7 @@ echo ""
 		echo ""
 		sudo apt update
 		echo ""
-		sudo apt install ranger -y
+		sudo apt install ranger -y > /dev/null
 		echo ""
 		echo -e "${White} [${Blue}+${White}] RANGER is installed, installing configuration"
                 sleep 2
@@ -241,7 +241,7 @@ echo ""
 		echo -e "${White} [${Blue}i${White}] Step 7 check if the cava is installed"
                 sleep 2
 	fi
-	if which cava >/dev/null; then
+	if which cava > /dev/null; then
 		echo ""
 		echo -e "${White} [${Blue}+${White}] CAVA is installed, installing configuration"
 		sleep 2
@@ -255,7 +255,7 @@ echo ""
 		echo ""
 		sudo apt update
 		echo ""
-		sudo apt install cava -y
+		sudo apt install cava -y > /dev/null
 		echo ""
 		echo -e "${White} [${Blue}+${White}] CAVA is installed, installing configuration"
 		sleep 2
@@ -266,7 +266,7 @@ echo ""
 		echo -e "${White} [${Blue}i${White}] Step 8 check if the polybar is installed"
 		sleep 2
 	fi
-	if which polybar >/dev/null; then
+	if which polybar > /dev/null; then
 		echo ""
 		echo -e "${White} [${Blue}+${White}] POLYBAR is installed, installing configuration"
 		sleep 2
@@ -293,7 +293,7 @@ echo ""
 		echo ""
 		sudo apt update
 		echo ""
-		sudo apt install polybar -y
+		sudo apt install polybar -y > /dev/null
 		echo ""
 		echo -e "${White} [${Blue}+${White}] POLYBAR is installed, installing configuration"
 		sleep 2
@@ -318,9 +318,9 @@ echo ""
 		echo -e "${White} [${Blue}i${White}] Step 9 installing missing dependencies"
 		sleep 2
 		echo ""
-		sudo apt install rofi fonts-firacode fonts-cantarell lxappearance nitrogen lsd betterlockscreen flameshot git net-tools xclip xdotool -y
+		sudo apt install rofi fonts-firacode fonts-cantarell lxappearance nitrogen lsd betterlockscreen flameshot git net-tools xclip xdotool -y > /dev/null
 		echo ""
-		sudo apt install scrub bat tty-clock feh pulseaudio-utils git lolcat -y
+		sudo apt install scrub bat tty-clock feh pulseaudio-utils git lolcat -y > /dev/null
 		echo ""
 		echo -e "${White} [${Blue}i${White}] Step 10 installing bspwm themes"
 		sleep 2
