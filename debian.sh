@@ -65,6 +65,26 @@ sleep 1
 echo -ne "${White} [${Blue}!${White}] Do you want to continue with the installation? Y|N ▶ ${Red}"
 read quest
 if [ $quest = Y ]; then
+echo ""
+	echo -e "${White} [${Blue}i${White}] Step 0 checking if zsh is installed"
+	sleep 2
+	if which bspwm >/dev/null; then
+		echo ""
+		echo -e "${White} [${Blue}+${White}] ZSH is installed, installing configuration"
+		sleep 2
+	else
+		echo ""
+		echo -e "${White} [${Red}-${White}] ZSH is not installed, installing zsh"
+		sleep 2
+		echo ""
+		sudo apt update
+		echo ""
+		sudo apt install zsh
+		echo ""
+		echo -e "${White} [${Blue}+${White}] ZSH is installed, installing configuration"
+		sleep 2
+		chsh -s $(which zsh)
+	fi
 	echo ""
 	echo -e "${White} [${Blue}i${White}] Step 1 checking if bspwm and sxhkd are installed"
 	sleep 2
