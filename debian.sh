@@ -44,18 +44,6 @@ sleep 4
 echo -e "${White} [${Blue}i${White}] Hello ${Red}${USERNAME}${White}, This is the bspwm installation script for Debian linux"
 }
 
-# INSTALLATION OF MISSING DEPENDENCIES
-missing_dependencies () {
-echo ""
-echo -e "${White} [${Blue}i${White}] Step 9 installing missing dependencies"
-sleep 2
-echo ""
-sudo apt install rofi fonts-firacode fonts-cantarell lxappearance nitrogen lsd betterlockscreen flameshot git net-tools xclip xdotool -y
-echo ""
-sudo apt install scrub bat tty-clock feh pulseaudio-utils git lolcat -y
-echo ""
-}
-
 # INSTALL BSPWM KALI LINUX SETUP
 setup () {
 clear
@@ -326,7 +314,14 @@ echo ""
 		chmod +x ${LOCALPATH}/.config/polybar/cuts/scripts/styles.sh
 		chmod +x ${LOCALPATH}/.config/polybar/cuts/scripts/updates.sh
 	fi
-		missing_dependencies()
+		echo ""
+		echo -e "${White} [${Blue}i${White}] Step 9 installing missing dependencies"
+		sleep 2
+		echo ""
+		sudo apt install rofi fonts-firacode fonts-cantarell lxappearance nitrogen lsd betterlockscreen flameshot git net-tools xclip xdotool -y
+		echo ""
+		sudo apt install scrub bat tty-clock feh pulseaudio-utils git lolcat -y
+		echo ""
 		echo -e "${White} [${Blue}i${White}] Step 10 installing bspwm themes"
 		sleep 2
 		cd ${RUTE}
