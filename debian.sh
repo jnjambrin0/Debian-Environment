@@ -65,7 +65,7 @@ echo ""
 		echo -e "${White} [${Red}-${White}] ZSH is not installed, installing zsh"
 		sleep 2
 		echo ""
-		sudo apt update
+		sudo apt update > /dev/null
 		echo ""
 		sudo apt install zsh -y > /dev/null
 		echo ""
@@ -89,7 +89,7 @@ echo ""
 		echo -e "${White} [${Red}-${White}] BSPWM is not installed, installing bspwm"
 		sleep 2
 		echo ""
-		sudo apt update
+		sudo apt update > /dev/null
 		echo ""
 		sudo apt install bspwm -y > /dev/null
 		echo ""
@@ -113,7 +113,7 @@ echo ""
 		echo -e "${White} [${Red}-${White}] SXHKD is not installed, installing sxhkd"
 		sleep 2
 		echo ""
-		sudo apt update
+		sudo apt update > /dev/null
 		echo ""
 		sudo apt install sxhkd -y > /dev/null
 		echo ""
@@ -153,7 +153,7 @@ echo ""
 		echo -e "${White} [${Red}-${White}] KITTY is not installed, installing kitty"
 		sleep 2
 		echo ""
-		sudo apt update
+		sudo apt update > /dev/null
 		echo ""
 		sudo apt install kitty -y > /dev/null
 		echo ""
@@ -178,7 +178,7 @@ echo ""
 		echo -e "${White} [${Red}-${White}] PICOM is not installed, installing picom compositor"
 		sleep 2
 		echo ""
-		sudo apt update
+		sudo apt update > /dev/null
 		echo ""
 		sudo apt install picom -y > /dev/null
 		echo ""
@@ -203,7 +203,7 @@ echo ""
 		echo -e "${White} [${Red}-${White}] NEOFETCH is not installed, installing neofetch"
 		sleep 2
 		echo ""
-		sudo apt update
+		sudo apt update > /dev/null
 		echo ""
 		sudo apt install neofetch -y > /dev/null
 		echo ""
@@ -228,7 +228,7 @@ echo ""
 		echo -e "${White} [${Red}-${White}] RANGER is not installed, installing ranger"
 		sleep 2
 		echo ""
-		sudo apt update
+		sudo apt update > /dev/null
 		echo ""
 		sudo apt install ranger -y > /dev/null
 		echo ""
@@ -253,7 +253,7 @@ echo ""
 		echo -e "${White} [${Red}-${White}] CAVA is not installed, installing cava"
 		sleep 2
 		echo ""
-		sudo apt update
+		sudo apt update > /dev/null
 		echo ""
 		sudo apt install cava -y > /dev/null
 		echo ""
@@ -291,7 +291,7 @@ echo ""
 		echo -e "${White} [${Red}-${White}] POLYBAR is not installed, installing polybar"
 		sleep 2
 		echo ""
-		sudo apt update
+		sudo apt update > /dev/null
 		echo ""
 		sudo apt install polybar -y > /dev/null
 		echo ""
@@ -318,9 +318,9 @@ echo ""
 		echo -e "${White} [${Blue}i${White}] Step 9 installing missing dependencies"
 		sleep 2
 		echo ""
-		sudo apt update
+		sudo apt update > /dev/null
 		echo ""
-		sudo apt install rofi fonts-firacode fonts-cantarell lxappearance nitrogen lsd betterlockscreen flameshot git net-tools xclip xdotool -y > /dev/null
+		sudo apt install rofi fonts-firacode fonts-cantarell lxappearance nitrogen lsd betterlockscreen flameshot git net-tools xclip xdotool -y
 		echo ""
 		sudo apt install scrub bat tty-clock feh pulseaudio-utils git lolcat -y > /dev/null
 		echo ""
