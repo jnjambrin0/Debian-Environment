@@ -96,7 +96,7 @@ All keyboard shortcuts in [**sxhkdrc**](https://github.com/AlvinPix/bspwm/blob/m
 To install this desktop environment is very easy, first clone the repository, there will be the cloned repository folder.
 
 ```bash
-git clone https://github.com/jnjambrin0/Debian-Environment.git ; cd bspwm
+git clone https://github.com/jnjambrin0/Debian-Environment.git ; cd Debian-Environment
 ```
 
 Finally, chmod permissions to the files called **debian.sh** and **root.sh** and then run it.
