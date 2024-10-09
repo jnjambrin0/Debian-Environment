@@ -79,7 +79,7 @@ echo ""
 		echo ""
 		sudo apt update
 		echo ""
-		sudo apt install zsh
+		sudo apt install zsh -y
 		echo ""
 		echo -e "${White} [${Blue}+${White}] ZSH is installed, installing configuration"
 		sleep 2
@@ -109,7 +109,7 @@ echo ""
 		sleep 2
 		cd ${RUTE}/.config
 		sudo rm -rf ${LOCALPATH}/.config/bspwm
-                cp -r bspwm ${LOCALPATH}/.config/bspwm
+        cp -r bspwm ${LOCALPATH}/.config/bspwm
 		chmod +x ${LOCALPATH}/.config/bspwm/bspwmrc
 	fi
 	if which sxhkd >/dev/null; then
