@@ -326,7 +326,7 @@ echo ""
 		chmod +x ${LOCALPATH}/.config/polybar/cuts/scripts/styles.sh
 		chmod +x ${LOCALPATH}/.config/polybar/cuts/scripts/updates.sh
 	fi
-		missing_dependencies
+		missing_dependencies()
 		echo -e "${White} [${Blue}i${White}] Step 10 installing bspwm themes"
 		sleep 2
 		cd ${RUTE}
